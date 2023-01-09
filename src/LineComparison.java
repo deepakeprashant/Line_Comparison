@@ -15,12 +15,11 @@ public class LineComparison {
             System.out.println("The Are Not Equal");
             System.out.println("Line One Value " + firstLength + "\nLine Two Value " + secondLength);
         }
-        if (result==0){
+        if (result == 0) {
             System.out.println("Both Line are Equals");
-        } else if (result>0) {
+        } else if (result > 0) {
             System.out.println("The Line 1 is Greater Than Line 2");
-        }
-        else {
+        } else {
             System.out.println("The Line 2 is Greater Than Line 1");
         }
     }
